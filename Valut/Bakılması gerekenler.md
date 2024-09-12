@@ -1,0 +1,16 @@
+### Database Table için:
+- @EndUserText.label : 'Personel listesi'
+- @AbapCatalog.enhancementCategory : \#NOT_EXTENSIBLE
+- @AbapCatalog.tableCategory : \#TRANSPARENT
+- @AbapCatalog.deliveryClass : \#A
+- @AbapCatalog.dataMaintenance : \#LIMITED
+- Bunların neler olduğuymuş ne işe yararmış bunları buraya not edersin.
+- bu tablelerde mutlaka "mandt" yazmamız lazım bunun sebebi ise birden fazla farklı clientlarda kullanılabiliyor. eğer bunu kullanmazsak bir yere yazdığımız eklediğimiz verielr öbür clienlara da eklenmiş olur bu durumu önlemek için de bunu kullanırız.
+- data elementlerin açıklama kısımlarını sonra doldurursun.
+- function group nedir ne işe yarar sonra tekrar bir bakarsın.
+- Fixed value yaptıran örnekler yap kendine.
+	- Bunu yaparken hangi alanda fixed value istiyorsan onun için yeni birtable oluşturuyorsun sonrasında bunu asıl tabloyla eşleştirip olayı bitiriyorsun.
+- Search help: Fixed value gibi sana yine seçenekler vercek ama illa bunu yap diye bir şey demeyecek.
+- yaptığın her değişiklikten sonra mutlaka bakımı yenilemen lazım yoksa değşiiklikler görünmez bunu da se11 koduyla ulaşırsın.
+- programın her yerinden erişiliyorsa gv'li olacak.
+- zint_yo_t_aile2 için yeni bir key oluştur ne bileyim işlem no gibi.

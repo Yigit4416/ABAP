@@ -1,0 +1,3 @@
+- Custom obje: Bizim yaptığımız baş harfi z ya da y olan objeler.
+- Standart: SAP'nin oluşturduğu objelerdir.
+- 
